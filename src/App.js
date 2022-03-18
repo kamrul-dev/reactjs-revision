@@ -20,7 +20,7 @@ function App() {
         <div>
           <article className='blog'>
             <h2 style={headingStyle}>Blog post 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, corrupti aperiam exercitationem quisquam voluptate labore qui perferendis in error sit fugiat quas iusto minima vero, ipsa quam cupiditate beatae.
+            <p style={{fontSize:'20px', color:'green', textAlign:'justify'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, corrupti aperiam exercitationem quisquam voluptate labore qui perferendis in error sit fugiat quas iusto minima vero, ipsa quam cupiditate beatae.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis odio, corrupti aperiam exercitationem quisquam voluptate labore qui perferendis in error sit fugiat quas iusto minima vero, ipsa quam cupiditate beatae.</p>
           </article>
         </div>

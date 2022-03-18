@@ -43,3 +43,9 @@
   border: 1px solid seagreen;
   border-radius: 10px;
 }
+.book-author{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+}

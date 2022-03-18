@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.blog{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+}

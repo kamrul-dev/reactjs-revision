@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 
 
@@ -34,15 +35,37 @@ function App() {
           <Blog heading='Chowddow ghusthi of programming' author='Jahakar Mahbub'></Blog>
         </div>
       }
+      {
+        <div>
+          <Mobile></Mobile>
+        </div>
+      }
     </div>
   );
 }
 
+// Blog component
 function Blog(props) {
   return (
     <div className='book-author'>
       <h2>Book Name: {props.heading}</h2>
       <h3>Author: {props.author}</h3>
+    </div>
+  )
+}
+
+//Mobile Component
+function Mobile() {
+  const [count, setCount] = useState(100);
+  const chargedDown = () => {
+    if (count > 0) {
+      setCount(count - 10);
+    }
+  }
+  return (
+    <div>
+      <h1>Battery Charged: {count}</h1>
+      <button onClick={chargedDown}>Battery Down</button>
     </div>
   )
 }
